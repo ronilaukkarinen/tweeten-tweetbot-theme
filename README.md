@@ -30,3 +30,12 @@ Rest are up to your likings.
 3. Open [theme.css](https://raw.githubusercontent.com/ronilaukkarinen/tweeten-tweetbot-theme/master/theme.css), select all and copy it to clipboard
 4. Add to Advanced > Custom CSS and paste CSS.
 5. Save settings
+
+## Development
+
+If you want to contribute to development, here's how:
+
+1. Fork this repository
+2. Clone your fork
+3. Install dependencies `npm install`
+4. Run `gulp`
