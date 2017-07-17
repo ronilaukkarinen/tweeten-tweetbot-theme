@@ -63,12 +63,15 @@
 	.js-column-header,
 	.column-header-temp {
 		background: url('https://rolle.wtf/tweeten-ch-gradient-2.png') repeat-x top #d0cfd0 !important;
+		height: 38px !important;
+		line-height: 38px !important;
 
 		// Modify title
 		.column-title {
 			text-align: center !important;
 			text-transform: none !important;
 			margin-right: 0 !important;
+			font-size: 14px !important;
 
 			.column-head-title {
 				text-align: center !important;
