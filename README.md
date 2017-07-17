@@ -27,6 +27,6 @@ Advanced-tab:
 
 Rest are up to your likings.
 
-3. Open [theme.css](x), select all and copy it to clipboard
+3. Open [theme.css](https://raw.githubusercontent.com/ronilaukkarinen/tweeten-tweetbot-theme/master/theme.css), select all and copy it to clipboard
 4. Add to Advanced > Custom CSS and paste CSS.
 5. Save settings
