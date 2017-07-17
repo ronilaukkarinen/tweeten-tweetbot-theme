@@ -82,6 +82,16 @@ $column-border-right-width: 2px;
     height: $column-header-height !important;
     line-height: $column-header-height !important;
 
+    // Add more subtle settings button and fix alignment issues
+    .js-action-header-button,
+    .column-header-link,
+    .column-settings-link {
+    	color: #444 !important;
+    	top: 4px !important;
+    	right: 10px !important;
+    	font-size: 12px !important;
+    }
+
     // Modify title
     .column-title {
       text-align: center !important;
