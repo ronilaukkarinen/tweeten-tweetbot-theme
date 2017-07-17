@@ -23,7 +23,7 @@ $column-border-right-width: 2px;
 
       // Hide horizontal scrollbars
       &.scroll-h {
-      	overflow-x: hidden !important;
+        overflow-x: hidden !important;
       }
     }
 
@@ -56,13 +56,11 @@ $column-border-right-width: 2px;
   .js-app-header,
   .tweet-button,
   .js-header-action,
-  .btn,
   .btn-compose {
     background: $color-background-leftbar !important;
 
     // Color tweet button
     .tweet-button,
-    button,
     button.tweet-button {
       background: $color-background-leftbar !important;
     }
@@ -86,10 +84,10 @@ $column-border-right-width: 2px;
     .js-action-header-button,
     .column-header-link,
     .column-settings-link {
-    	color: #444 !important;
-    	top: 4px !important;
-    	right: 10px !important;
-    	font-size: 12px !important;
+      color: #444 !important;
+      top: 4px !important;
+      right: 10px !important;
+      font-size: 12px !important;
     }
 
     // Modify title
@@ -130,10 +128,33 @@ $column-border-right-width: 2px;
   .app-columns {
     margin: 0 !important;
 
+    // Column settings
     .js-column,
     .column {
       margin: 0 !important;
       border-right: $column-border-right-width solid $color-column-border-right !important;
+
+      .js-column-content,
+      .column-content,
+      .js-column-options,
+      .js-column-options-container {
+        .button-tray {
+          background: #e9eaed !important;
+        }
+
+        .button-group {
+          button,
+          .btn,
+          .btn-options-tray {
+            background: #e9eaed !important;
+            color: #2d2d2d !important;
+
+            * {
+              color: #2d2d2d !important;
+            }
+          }
+        }
+      }
     }
   }
 }
