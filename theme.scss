@@ -1,0 +1,109 @@
+// Tweetbot-inspired theme for tweeten Twitter client
+// @author https://twitter.com/rolle
+// @since 17.7.2017
+// @version 17.7.2017
+
+.js-app,
+.application {
+
+	// Remove space between left bar and app-content
+	.app-content,
+	.js-app-content {
+		left: 44px !important;
+
+		.drawer,
+		.js-drawer {
+
+			// Align compose section in drawer
+			.compose,
+			.js-docked-compose {
+				left: 6px !important;
+				position: relative !important;
+
+				// Hide compose header
+				.compose-header {
+					display: none !important;
+				}
+
+				// Style compose buttons
+				button {
+					background: #333 !important;
+					font-size: 14px !important;
+					text-transform: none !important;
+				}
+			}
+		}
+	}
+
+	// Change left bar background to dark
+	.app-header,
+	.js-app-header,
+	.tweet-button,
+	.js-header-action,
+	.btn,
+	.btn-compose {
+		background: #252525 !important;
+
+		// Color tweet button
+		.tweet-button,
+		button,
+		button.tweet-button {
+			background: #252525 !important;
+		}
+	}
+
+	.js-header-action {
+		&::after {
+			background: #252525 !important;
+		}
+	}
+
+	// Change all column header backgrounds
+	.column-header,
+	.js-column-header,
+	.column-header-temp {
+		background: url('https://rolle.wtf/tweeten-ch-gradient-2.png') repeat-x top #d0cfd0 !important;
+
+		// Modify title
+		.column-title {
+			text-align: center !important;
+			text-transform: none !important;
+			margin-right: 0 !important;
+
+			.column-head-title {
+				text-align: center !important;
+				text-transform: none !important;
+				font-size: 14px !important;
+			}
+
+			// Align icons
+			.icon {
+				color: #2c2c2c !important;
+				top: 3px !important;
+				position: relative !important;
+			}
+
+			// Hide second span in title
+			.attribution,
+			.txt-mute {
+				display: none !important;
+			}
+
+			// Paint everything darker
+			* {
+				color: #2c2c2c !important;
+			}
+		}
+	}
+
+	// Force reset margins in columns
+	.js-app-columns,
+	.app-columns {
+		margin: 0 !important;
+
+		.js-column,
+		.column {
+			margin: 0 !important;
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+  "name": "tweeten-tweetbot-theme",
+  "version": "1.0.0",
+  "description": "Tweetbot-inspired theme for tweeten Twitter client",
+  "author": "Roni Laukkarinen (Twitter: @rolle, GitHub: ronilaukkarinen)",
+  "devDependencies": {
+    "exec": "0.2.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "4.0.0",
+    "gulp-cache": "0.4.6",
+    "gulp-changed": "^3.1.0",
+    "gulp-concat": "2.6.1",
+    "gulp-header": "1.8.8",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-pixrem": "^1.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "3.0.0",
+    "gulp-util": "^3.0.7",
+    "require-dir": "^0.3.1"
+  }
+}
