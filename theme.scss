@@ -12,6 +12,11 @@ $column-border-right-width: 1px;
 .js-app,
 .application {
 
+	// Make search input darker
+	.js-search .js-search-input-control input {
+		background: #000 !important;
+	}
+
   // Remove space between left bar and app-content
   .app-content,
   .js-app-content {
