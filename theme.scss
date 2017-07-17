@@ -95,6 +95,12 @@ $column-border-right-width: 1px;
     	.js-stream-item {
     		margin-bottom: 5px;
 
+    		// Make small text even smaller
+    		.nbfc {
+    			font-size: 11px !important;
+    			margin-bottom: 1px;
+    		}
+
     		.tweet,
     		.js-tweet {
     			position: relative !important;
