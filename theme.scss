@@ -104,6 +104,11 @@ $column-border-right-width: 1px;
     			.js-tweet-actions {
     				position: absolute !important;
     				bottom: -10px !important;
+    				right: 0 !important;
+
+    				&:hover {
+    					background: #fff !important;
+    				}
 
     				// Smaller icons
     				li {
@@ -142,9 +147,13 @@ $column-border-right-width: 1px;
         	font-size: 12px !important;
         }
 
-        // Modify title
         .column-title {
-        	text-align: center !important;
+        	text-align: center !important;        	
+        }
+
+        // Modify title
+        .column-title,
+        .column-title-back {
         	text-transform: none !important;
         	margin-right: 0 !important;
         	font-size: 14px !important;
