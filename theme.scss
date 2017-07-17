@@ -154,7 +154,11 @@ $column-border-right-width: 1px;
         }
 
         .column-title {
-        	text-align: center !important;        	
+        	text-align: center !important;
+        }
+
+        .column-detail .js-detail-header .column-title-back span {
+        	text-transform: none !important;
         }
 
         // Modify title
