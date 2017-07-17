@@ -91,8 +91,31 @@ $column-border-right-width: 1px;
     	border-right: $column-border-right-width solid $color-column-border-right !important;
 
     	// Less space between tweets
-    	.stream-item {
+    	.stream-item,
+    	.js-stream-item {
     		margin-bottom: 5px;
+
+    		.tweet,
+    		.js-tweet {
+    			position: relative !important;
+
+    			// Absolute positioned actions for more compact tweets
+    			.tweet-actions,
+    			.js-tweet-actions {
+    				position: absolute !important;
+    				bottom: -10px !important;
+
+    				// Smaller icons
+    				li {
+    					.tweet-action {
+    						.icon,
+    						.Icon {
+    							font-size: 13px !important;
+    						}
+    					}
+    				}
+    			}
+    		}
 
     		// More subtle timestamp
     		.tweet-timestamp a {
