@@ -13,8 +13,10 @@ $column-border-right-width: 1px;
 .application {
 
 	// Make search input darker
-	.js-search .js-search-input-control input {
-		background: #000 !important;
+	.js-app-header {
+		.js-search .js-search-input-control input {
+			background: #000 !important;
+		}
 	}
 
   // Remove space between left bar and app-content
@@ -88,6 +90,10 @@ $column-border-right-width: 1px;
       margin: 0 !important;
       border-right: $column-border-right-width solid $color-column-border-right !important;
 
+      .stream-item .tweet-timestamp a {
+      	color: #b3b3b3 !important;
+      	font-weight: 400 !important;
+      }
 
       // Change all column header backgrounds
       .column-header,
