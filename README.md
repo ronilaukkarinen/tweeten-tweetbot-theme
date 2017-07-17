@@ -38,4 +38,4 @@ If you want to contribute to development, here's how:
 1. Fork this repository
 2. Clone your fork
 3. Install dependencies `npm install`
-4. Run `gulp`
+4. Run `gulp` and start editing theme.scss
