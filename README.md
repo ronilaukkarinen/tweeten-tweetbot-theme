@@ -18,12 +18,12 @@ Love [Tweeten](https://github.com/MehediH/Tweeten), but not how it looks? Say he
 1. [Download Tweeten](https://github.com/MehediH/Tweeten/releases/)
 2. Go to Settings (bottom left cog icon), add Theme: **Light**, font size: **Small**, and activate following:
 
-[x] Display round profile pictures
-[x] Display a separator for tweets
-[x] Show thinner scrollbars in columns
+- [x] Display round profile pictures
+- [x] Display a separator for tweets
+- [x] Show thinner scrollbars in columns
 
 Advanced-tab:
-[x] Enable developer features
+- [x] Enable developer features
 
 Rest are up to your likings.
 
