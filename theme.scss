@@ -17,9 +17,14 @@ $column-border-right-width: 2px;
   .js-app-content {
     left: 44px !important;
 
-    // Add default background color
+    // Add default background color for columns container
     .app-columns-container {
       background: #a0a0a0 !important;
+
+      // Hide horizontal scrollbars
+      &.scroll-h {
+      	overflow-x: hidden !important;
+      }
     }
 
     .drawer,

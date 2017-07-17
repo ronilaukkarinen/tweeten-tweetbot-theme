@@ -11,6 +11,7 @@ Love [Tweeten](https://github.com/MehediH/Tweeten), but not how it looks? Say he
 - Clutter-free compose sidebar
 - Column headers in native Mac OS X Tweetbot style
 - Dark left background
+- Hidden horizontal scrollbars for more minimal look
 - Perhaps even more later on!
 
 ## Installation
