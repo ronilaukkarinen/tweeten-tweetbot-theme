@@ -1,6 +1,6 @@
 # Tweetbot-inspired theme for Tweeten
 
-Love tweeten, but not how it looks? Say hello to Tweetbot -inspired theme for @MehediH's [Tweeten](https://github.com/MehediH/Tweeten), Tweetdeck-based Twitter client.
+Love [Tweeten](https://github.com/MehediH/Tweeten), but not how it looks? Say hello to Tweetbot -inspired theme for [@MehediH](https://github.com/MehediH)'s [Tweeten](https://github.com/MehediH/Tweeten), Tweetdeck-based Twitter client.
 
 ![Screenshot](https://rolle.wtf/tweeten-tweetbot-theme-screenshot.png)
 
