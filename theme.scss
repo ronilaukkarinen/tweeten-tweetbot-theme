@@ -90,6 +90,15 @@ $column-border-right-width: 1px;
     	margin: 0 !important;
     	border-right: $column-border-right-width solid $color-column-border-right !important;
 
+    	// More sleek tweet-detail-actions
+    	.js-tweet-detail .tweet-detail-actions {
+    		background: #fff !important;
+
+    		.tweet-detail-action-item {
+    			background: #fff !important;
+    		}
+    	}
+
     	// Less space between tweets
     	.stream-item,
     	.js-stream-item {
