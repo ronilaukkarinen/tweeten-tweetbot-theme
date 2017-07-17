@@ -3,6 +3,13 @@
 // @since 17.7.2017
 // @version 17.7.2017
 
+$color-background-leftbar: #252525;
+$color-column-header-text: #2c2c2c;
+$color-column-border-right: #a1a1a1;
+$color-buttons-background: #333;
+$column-header-height: 38px;
+$column-border-right-width: 2px;
+
 .js-app,
 .application {
 
@@ -27,7 +34,7 @@
 
 				// Style compose buttons
 				button {
-					background: #333 !important;
+					background: $color-buttons-background !important;
 					font-size: 14px !important;
 					text-transform: none !important;
 				}
@@ -42,19 +49,19 @@
 	.js-header-action,
 	.btn,
 	.btn-compose {
-		background: #252525 !important;
+		background: $color-background-leftbar !important;
 
 		// Color tweet button
 		.tweet-button,
 		button,
 		button.tweet-button {
-			background: #252525 !important;
+			background: $color-background-leftbar !important;
 		}
 	}
 
 	.js-header-action {
 		&::after {
-			background: #252525 !important;
+			background: $color-background-leftbar !important;
 		}
 	}
 
@@ -63,8 +70,8 @@
 	.js-column-header,
 	.column-header-temp {
 		background: url('https://rolle.wtf/tweeten-ch-gradient-2.png') repeat-x top #d0cfd0 !important;
-		height: 38px !important;
-		line-height: 38px !important;
+		height: $column-header-height !important;
+		line-height: $column-header-height !important;
 
 		// Modify title
 		.column-title {
@@ -81,7 +88,7 @@
 
 			// Align icons
 			.icon {
-				color: #2c2c2c !important;
+				color: $color-column-header-text !important;
 				top: 3px !important;
 				position: relative !important;
 			}
@@ -94,7 +101,7 @@
 
 			// Paint everything darker
 			* {
-				color: #2c2c2c !important;
+				color: $color-column-header-text !important;
 			}
 		}
 	}
@@ -107,7 +114,7 @@
 		.js-column,
 		.column {
 			margin: 0 !important;
-			border-right: 1px solid #a1a1a1 !important;
+			border-right: $column-border-right-width solid $color-column-border-right !important;
 		}
 	}
 }
