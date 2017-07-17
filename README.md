@@ -9,7 +9,7 @@ Love [Tweeten](https://github.com/MehediH/Tweeten), but not how it looks? Say he
 - More compact columns without spaces between them
 - Alignment fixes
 - Clutter-free compose sidebar
-- Tweetdeck-type column headers
+- Column headers in native Mac OS X Tweetbot style
 - Dark left background
 - Perhaps even more later on!
 
