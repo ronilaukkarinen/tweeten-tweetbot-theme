@@ -7,7 +7,7 @@ $color-column-header-text: #2c2c2c;
 $color-column-border-right: #a1a1a1;
 $color-buttons-background: #333;
 $column-header-height: 38px;
-$column-border-right-width: 2px;
+$column-border-right-width: 1px;
 
 .js-app,
 .application {
@@ -72,57 +72,6 @@ $column-border-right-width: 2px;
     }
   }
 
-  // Change all column header backgrounds
-  .column-header,
-  .js-column-header,
-  .column-header-temp {
-    background: url('https://rolle.wtf/tweeten-ch-gradient-2.png') repeat-x top #d0cfd0 !important;
-    height: $column-header-height !important;
-    line-height: $column-header-height !important;
-
-    // Add more subtle settings button and fix alignment issues
-    .js-action-header-button,
-    .column-header-link,
-    .column-settings-link {
-      color: #444 !important;
-      top: 4px !important;
-      right: 10px !important;
-      font-size: 12px !important;
-    }
-
-    // Modify title
-    .column-title {
-      text-align: center !important;
-      text-transform: none !important;
-      margin-right: 0 !important;
-      font-size: 14px !important;
-
-      .column-head-title {
-        text-align: center !important;
-        text-transform: none !important;
-        font-size: 14px !important;
-      }
-
-      // Align icons
-      .icon {
-        color: $color-column-header-text !important;
-        top: 3px !important;
-        position: relative !important;
-      }
-
-      // Hide second span in title
-      .attribution,
-      .txt-mute {
-        display: none !important;
-      }
-
-      // Paint everything darker
-      * {
-        color: $color-column-header-text !important;
-      }
-    }
-  }
-
   // Force reset margins in columns
   .js-app-columns,
   .app-columns {
@@ -133,6 +82,58 @@ $column-border-right-width: 2px;
     .column {
       margin: 0 !important;
       border-right: $column-border-right-width solid $color-column-border-right !important;
+
+
+      // Change all column header backgrounds
+      .column-header,
+      .js-column-header,
+      .column-header-temp {
+        background: url('https://rolle.wtf/tweeten-ch-gradient-2.png') repeat-x top #d0cfd0 !important;
+        height: $column-header-height !important;
+        line-height: $column-header-height !important;
+
+        // Add more subtle settings button and fix alignment issues
+        .js-action-header-button,
+        .column-header-link,
+        .column-settings-link {
+          color: #888 !important;
+          top: 4px !important;
+          right: 10px !important;
+          font-size: 12px !important;
+        }
+
+        // Modify title
+        .column-title {
+          text-align: center !important;
+          text-transform: none !important;
+          margin-right: 0 !important;
+          font-size: 14px !important;
+
+          .column-head-title {
+            text-align: center !important;
+            text-transform: none !important;
+            font-size: 14px !important;
+          }
+
+          // Align icons
+          .icon {
+            color: $color-column-header-text !important;
+            top: 3px !important;
+            position: relative !important;
+          }
+
+          // Hide second span in title
+          .attribution,
+          .txt-mute {
+            display: none !important;
+          }
+
+          // Paint everything darker
+          * {
+            color: $color-column-header-text !important;
+          }
+        }
+      }
 
       .js-column-content,
       .column-content,
