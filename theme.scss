@@ -181,12 +181,24 @@ $column-border-right-width: 1px;
         	text-align: center !important;
         }
 
+        // Fix back icon alignment
+        .column-title-back {
+        	.icon,
+        	.Icon {
+        		&:before {
+        			position: relative !important;
+        			top: 2px !important;
+        		}
+        	}
+        }
+
         // Modify title
         .column-title,
         .column-title-back {
         	text-transform: none !important;
         	margin-right: 0 !important;
         	font-size: 14px !important;
+        	padding-left: 0 !important;
 
         	.column-head-title {
         		text-align: center !important;
