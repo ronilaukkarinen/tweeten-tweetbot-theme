@@ -109,6 +109,18 @@ $column-border-right-width: 1px;
     	.js-stream-item {
     		margin-bottom: 5px;
 
+    		// Add background to tweet actions on hover
+    		&:hover {
+    			.tweet,
+    			.js-tweet {
+    				.tweet-actions,
+    				.js-tweet-actions {
+    					background: #fff !important;
+    					border-radius: 3px;
+    				}
+    			}
+    		}
+
     		// Make small text even smaller
     		.nbfc {
     			font-size: 11px !important;
@@ -125,10 +137,6 @@ $column-border-right-width: 1px;
     				position: absolute !important;
     				bottom: 0 !important;
     				right: 0 !important;
-
-    				&:hover {
-    					background: #fff !important;
-    				}
 
     				// Smaller icons
     				li {
