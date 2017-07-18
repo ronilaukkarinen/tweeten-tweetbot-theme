@@ -29,8 +29,9 @@ $column-border-right-width: 1px;
   .js-app-content {
   	left: 44px !important;
 
-    // Add default background color for columns container
+    // Add default background color for columns container, make top border less visible
     .app-columns-container {
+    	top: -1px !important;
     	background: #a0a0a0 !important;
 
       // Hide horizontal scrollbars
