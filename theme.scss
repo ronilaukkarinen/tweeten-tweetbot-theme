@@ -180,6 +180,33 @@ $font-size-column-title: 14px;
 
         .column-title {
           text-align: center !important;
+          height: $column-header-height !important;
+          height: 38px;
+          width: 100%;
+          width: 100% !important;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .column-header-title {
+          height: $column-header-height !important;
+          height: 38px;
+          width: 100% !important;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        span.column-heading {
+          text-transform: none;
+          font-size: 14px;
+          top: 0;
+          float: none;
+          display: inline;
+          margin-left: 25px !important;
         }
 
         // Fix back icon alignment
