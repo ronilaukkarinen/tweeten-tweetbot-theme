@@ -140,6 +140,7 @@ $font-size-column-title: 14px;
             position: absolute !important;
             bottom: 0 !important;
             right: 0 !important;
+            z-index: 9999 !important;
 
             // Smaller icons
             li {
@@ -147,6 +148,10 @@ $font-size-column-title: 14px;
                 .icon,
                 .Icon {
                   font-size: 13px !important;
+                }
+
+                .pull-right {
+                  display: none;
                 }
               }
             }
