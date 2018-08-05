@@ -112,18 +112,6 @@ $font-size-column-title: 14px;
       .js-stream-item {
         margin-bottom: 5px;
 
-        // Add background to tweet actions on hover
-        &:hover {
-          .tweet,
-          .js-tweet {
-            .tweet-actions,
-            .js-tweet-actions {
-              background: #fff !important;
-              border-radius: 3px;
-            }
-          }
-        }
-
         // Make small text even smaller
         .nbfc {
           font-size: 11px !important;
@@ -134,24 +122,25 @@ $font-size-column-title: 14px;
         .js-tweet {
           position: relative !important;
 
-          // Absolute positioned actions for more compact tweets
           .tweet-actions,
           .js-tweet-actions {
-            position: absolute !important;
-            bottom: 0 !important;
-            right: 0 !important;
-            z-index: 9999 !important;
+            position: relative !important;
+            top: 3px !important;
 
             // Smaller icons
             li {
+              font-size: 11px !important;
+
               .tweet-action {
+                font-size: 11px !important;
+
                 .icon,
                 .Icon {
                   font-size: 13px !important;
                 }
 
                 .pull-right {
-                  display: none;
+                  font-size: 11px !important;
                 }
               }
             }
