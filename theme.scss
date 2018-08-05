@@ -10,6 +10,12 @@ $column-header-height: 38px;
 $column-border-right-width: 1px;
 $font-size-column-title: 14px;
 
+// Hide useless tooltips
+.js-column-nav-menu-flyover,
+.column-nav-flyout {
+  display: none !important;
+}
+
 .js-app,
 .application {
 
