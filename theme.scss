@@ -112,6 +112,11 @@ $font-size-column-title: 14px;
       .js-stream-item {
         margin-bottom: 5px;
 
+        // Slight separator between tweets
+        .item-box {
+          border-bottom: 1px solid #e6e6e6;
+        }
+
         // Make small text even smaller
         .nbfc {
           font-size: 11px !important;
