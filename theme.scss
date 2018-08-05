@@ -115,6 +115,14 @@ $font-size-column-title: 14px;
         // Slight separator between tweets
         .item-box {
           border-bottom: 1px solid #e6e6e6;
+
+          // Full opacity on tweet actions on hover
+          &:hover {
+            .tweet-action,
+            .js-tweet-action {
+              opacity: 1 !important;
+            }
+          }
         }
 
         // Make small text even smaller
@@ -127,17 +135,21 @@ $font-size-column-title: 14px;
         .js-tweet {
           position: relative !important;
 
+          // More space for tweet actions
+          .tweet-footer {
+            margin-top: 10px !important;
+            margin-bottom: 7px !important;            
+          }
+
           .tweet-actions,
           .js-tweet-actions {
-            position: relative !important;
-            top: 3px !important;
-
             // Smaller icons
             li {
               font-size: 11px !important;
 
               .tweet-action {
                 font-size: 11px !important;
+                opacity: .65;
 
                 .icon,
                 .Icon {
