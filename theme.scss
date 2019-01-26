@@ -16,6 +16,16 @@ $font-size-column-title: 14px;
   display: none !important;
 }
 
+// Define sidebar width
+.is-condensed .app-header,
+.is-condensed .app-header.is-condensed .app-header-inner,
+.is-condensed .js-app-header .js-search button.app-search-fake,
+.is-condensed .js-app-header .js-search,
+.is-condensed .js-app-header .column-navigator,
+.is-condensed .js-app-header .app-navigator.margin-bm {
+  width: 50px !important;
+}
+
 .js-app,
 .application {
 
