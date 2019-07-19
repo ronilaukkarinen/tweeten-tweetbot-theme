@@ -72,9 +72,25 @@ html.dark textarea,
 html.dark .compose,
 html.dark .js-drawer .compose,
 html .js-drawer .compose .compose-text-container,
-html.dark .compose .compose-text-container {
+html.dark .compose .compose-text-container,
+html .mdl .mdl-header,
+html .s-inreply .js-inreply,
+html.dark .cf,
+html.dark .mdl-accent,
+html.dark .bg-color-twitter-white,
+html.dark .js-quote-tweet-holder.bg-color-twitter-white.is-inverted-dark,
+html.dark .js-drawer .compose .js-quote-tweet-holder .js-quote-detail {
   background: $general-tweet-background !important;
   background-color: $general-tweet-background !important;
+}
+
+html.dark .mdl-header-divider {
+  border: 0 !important;
+}
+
+html.dark .nav-user-info.cf {
+  background: transparent !important;
+  background-color: transparent !important;
 }
 
 html.dark .js-app .js-column .thread {
