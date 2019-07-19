@@ -4,6 +4,8 @@ Love [Tweeten](http://tweetenapp.com/), but not how it looks? Say hello to Tweet
 
 ![Screenshot](https://rolle.wtf/tweeten-tweetbot-theme.png)
 
+![Screenshot](https://i.imgur.com/i0rJSaf.png)
+
 ## Features
 
 - More compact columns without spaces between them
@@ -14,10 +16,24 @@ Love [Tweeten](http://tweetenapp.com/), but not how it looks? Say hello to Tweet
 - Hidden horizontal scrollbars for more minimal look
 - Perhaps even more later on!
 
-## Installation
+## Installation - light version
 
 1. [Download Tweeten](https://github.com/MehediH/Tweeten/releases/)
 2. Go to Settings (bottom left cog icon), add Theme: **Light**, font size: **Small**, and activate following:
+
+- [x] Display round profile pictures
+- [x] Display a separator for tweets
+- [x] Show thinner scrollbars in columns
+
+Advanced-tab:
+- [x] Enable developer features
+
+Rest are up to your likings.
+
+## Installation - dark version
+
+1. [Download Tweeten](https://github.com/MehediH/Tweeten/releases/)
+2. Go to Settings (bottom left cog icon), add Theme: **Dark**, font size: **Small**, and activate following:
 
 - [x] Display round profile pictures
 - [x] Display a separator for tweets
