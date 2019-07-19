@@ -108,7 +108,10 @@ html.dark .column-panel,
 html.dark .js-modal .js-modal-panel .mdl-inner .mdl-buttonbar,
 html.dark .js-modal-panel.mdl,
 html.dark .js-app .js-column .column-options,
-html.dark .js-app .js-column-options-container button.full-width {
+html.dark .js-app .js-column-options-container button.full-width,
+.js-modal .js-modal-panel .mdl-inner .mdl-content .lst-launcher li a,
+.js-modal .js-modal-panel .mdl-inner .mdl-content .lst-launcher li,
+.js-modal .js-modal-panel .mdl-inner .mdl-content .lst-launcher {
   background: $general-tweet-background !important;
   background-color: $general-tweet-background !important;
 }
