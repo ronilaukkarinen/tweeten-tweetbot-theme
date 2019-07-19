@@ -77,6 +77,15 @@ html.dark .compose .compose-text-container {
   background-color: $general-tweet-background !important;
 }
 
+html.dark .js-app .js-column .thread {
+  left: 20px !important;
+  background: rgba(255, 255, 255, .4) !important;
+}
+
+html.dark .js-app .js-column .stream-item:first-child .thread {
+  left: -27px !important;
+}
+
 html .js-app .js-column article[data-key^="follow_"] .account-summary .account-bio,
 html .js-app .js-column article[data-key^="follow_"] .account-summary .account-bio a,
 html .js-app .js-column article[data-key^="follow_"] .account-summary .account-bio,
