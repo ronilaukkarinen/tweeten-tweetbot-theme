@@ -15,10 +15,23 @@ $color-fullname: #fff;
 $color-username: #8899a6;
 $color-activity-header-text: #8899a6;
 $color-other-replies-text: #8899a6;
+$empty-bg-color: #10171e;
 $tweet-text-color: #e6e7e8;
 $column-header-height: 38px;
 $column-border-right-width: 1px;
 $font-size-column-title: 14px;
+
+// Background behind everything
+html.dark {
+  .application .app-content .app-columns-container,
+  .application .js-app-content .app-columns-container,
+  .js-app .app-content .app-columns-container,
+  .js-app .js-app-content .app-columns-container,
+  .js-app .app-content .app-columns-container,
+  .js-app .js-app-content .app-columns-container {
+    background: $empty-bg-color !important;
+  }
+}
 
 // Scrollbars
 html ::-webkit-scrollbar,
