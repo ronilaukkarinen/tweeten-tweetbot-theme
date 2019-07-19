@@ -2,13 +2,91 @@
 // @author https://twitter.com/rolle
 // @since 17.7.2017
 // @version 17.7.2017
-$color-background-leftbar: #252525;
-$color-column-header-text: #2c2c2c;
-$color-column-border-right: #a1a1a1;
-$color-buttons-background: #333;
+$general-tweet-background: #15202b;
+$color-background-leftbar: #15202b;
+$color-column-header-text: #adb0b2;
+$color-column-border-right: #2c3842;
+$stream-item-border-color: #2c3842;
+$color-buttons-background: #15202b;
+$column-header-background: #15202b;
+$quoted-tweet-background: #15202b;
+$quoted-tweet-border-color: #2c3842;
+$color-fullname: #fff;
+$color-username: #8899a6;
+$color-activity-header-text: #8899a6;
+$color-other-replies-text: #8899a6;
+$tweet-text-color: #e6e7e8;
 $column-header-height: 38px;
 $column-border-right-width: 1px;
 $font-size-column-title: 14px;
+
+// Scrollbars
+html ::-webkit-scrollbar,
+html.dark .scroll-styled-v::-webkit-scrollbar {
+  width: 3px !important;
+  border-radius: 3px !important;
+}
+
+html ::-webkit-scrollbar-track,
+::-webkit-scrollbar-track,
+html.dark .scroll-styled-v::-webkit-scrollbar-track {
+  background: $general-tweet-background !important; 
+  border-radius: 3px !important;
+  border: 0 !important;
+}
+
+html ::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb,
+html.dark .scroll-styled-v::-webkit-scrollbar-thumb {
+  background: $stream-item-border-color !important; 
+  border-radius: 3px !important;
+}
+
+html ::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:hover {
+  background: $stream-item-border-color !important; 
+  border-radius: 3px !important;
+}
+
+html.dark .detail-view-inline {
+  background: transparent !important;
+
+  .detail-view-inline-text {
+    background: transparent !important;
+  }
+}
+
+html .js-app .js-column .stream-item .js-inline-reply .js-reply-info-container,
+html .js-app .js-column .stream-item .js-inline-reply .compose-text-container,
+html .js-app .js-column .stream-item .js-inline-reply div,
+html .js-app .js-column .stream-item .js-inline-reply button,
+html.dark .detail-view-inline,
+html .js-app .column-detail .scroll-conversation,
+html.dark .scroll-conversation,
+html.dark .js-drawer .compose .compose-text-container textarea.bg-color-twitter-white,
+html.dark .js-app .js-column .stream-item .js-inline-reply textarea,
+html .js-app .js-column .stream-item .js-inline-reply div.cf.margin-t--4.full-width,
+html .js-app .column-detail .scroll-conversation, html .js-app .js-column .stream-item .js-inline-reply .compose-text-container, html .js-app .js-column .stream-item .js-inline-reply .js-reply-info-container, html .js-app .js-column .stream-item .js-inline-reply button, html .js-app .js-column .stream-item .js-inline-reply div, html .js-app .js-column .stream-item .js-inline-reply div.cf.margin-t--4.full-width, html.dark .detail-view-inline, html.dark .js-app .js-column .stream-item .js-inline-reply textarea,
+html.dark .js-drawer .compose .compose-text-container textarea.bg-color-twitter-white, html.dark .scroll-conversation,
+html.dark textarea {
+  background: $general-tweet-background !important;
+  background-color: $general-tweet-background !important;
+}
+
+html .js-app .js-column article[data-key^="follow_"] .account-summary .account-bio,
+html .js-app .js-column article[data-key^="follow_"] .account-summary .account-bio a,
+html .js-app .js-column article[data-key^="follow_"] .account-summary .account-bio,
+html .js-app .js-column article[data-key^="follow_"] .account-summary .account-bio a,
+html .js-app .js-column .stream-item .account-summary .account-bio a,
+html .js-app .js-column .stream-item .account-summary .account-bio {
+  color: $color-username !important;
+}
+
+// Smaller default tweeten user avatar
+html.dark .avatar.size36 {
+  width: 24px !important;
+  height: 24px !important;
+}
 
 // Hide useless tooltips
 .js-column-nav-menu-flyover,
@@ -26,7 +104,14 @@ $font-size-column-title: 14px;
   width: 50px !important;
 }
 
+.app-header,
+.js-app-header,
+.app-header.js-app-header {
+  border-right: 1px solid $stream-item-border-color !important;
+}
+
 .js-app,
+html .js-app,
 .application {
 
   // Make search input darker
@@ -40,6 +125,15 @@ $font-size-column-title: 14px;
   .column-detail .js-detail-header .column-title-back span {
     text-transform: none !important;
     font-size: $font-size-column-title !important;
+  }
+
+  .column-title-back .icon {
+    margin-left: 10px !important;
+    font-size: 10px !important;
+  }
+  
+  .column-title-back .icon:before {
+    font-size: 10px !important;
   }
 
   // Remove space between left bar and app-content
@@ -114,23 +208,95 @@ $font-size-column-title: 14px;
       margin: 0 !important;
       border-right: $column-border-right-width solid $color-column-border-right !important;
 
+      //.js-column-scroller {
+      //  // Show scrollbars only on hover
+      //  overflow: hidden !important;
+      //
+      //  &:hover {
+      //    overflow-y: scroll !important;
+      //  }
+      //}
+      
       // More sleek tweet-detail-actions
       .js-tweet-detail .tweet-detail-actions {
-        background: #fff !important;
+        background: $general-tweet-background !important;
 
         .tweet-detail-action-item {
-          background: #fff !important;
+          background: $general-tweet-background !important;
         }
       }
 
       // Less space between tweets
       .stream-item,
       .js-stream-item {
-        margin-bottom: 5px;
+        background: $general-tweet-background !important;
+        margin-bottom: 0;
+        padding-bottom: 5px;
+
+        .js-compose-text.compose-text,
+        .compose-text,
+        .compose-text.bg-color-twitter-white,
+        .js-inline-reply textarea.bg-color-twitter-white {
+          background: $general-tweet-background !important;
+          background-color: $general-tweet-background !important;
+        }
+
+        .activity-header,
+        .activity-header * {
+          color: $color-activity-header-text !important;
+
+          .icon,
+          .Icon {
+            font-size: 13px !important;
+            margin-right: 8px !important;
+            color: $color-username !important;
+          }
+        }
+
+        .account-link .account-inline .fullname,
+        .txt-ellipsis .fullname {
+          color: $color-fullname !important;
+        }
+
+        .account-inline .username,
+        .account-link .account-inline .username,
+        .txt-ellipsis .username,
+        .txt-ellipsis a,
+        .nbfc a,
+        .nbfc,
+        .account-summary-text .username,
+        .js-translate-call-to-action {
+          color: $color-username !important;
+        }
+
+        .other-replies {
+          color: $color-other-replies-text !important;
+        }
+
+        .quoted-tweet {
+          background: $quoted-tweet-background !important;
+          border: 1px solid $quoted-tweet-border-color !important;
+          border-radius: 8px !important;
+
+          a,
+          p,
+          * {
+            color: $tweet-text-color !important;
+          }
+        }
+
+        .tweet-text,
+        .js-tweet-text {
+          color: $tweet-text-color !important;
+
+          a {
+            color: $color-username !important;
+          }
+        }
 
         // Slight separator between tweets
         .item-box {
-          border-bottom: 1px solid #e6e6e6;
+          border-bottom: 1px solid $stream-item-border-color;
 
           // Full opacity on tweet actions on hover
           &:hover {
@@ -182,8 +348,8 @@ $font-size-column-title: 14px;
 
         // More subtle timestamp
         .tweet-timestamp a {
-          color: #b3b3b3 !important;
           font-weight: 400 !important;
+          color: $color-username !important;
         }
       }
 
@@ -191,9 +357,10 @@ $font-size-column-title: 14px;
       .column-header,
       .js-column-header,
       .column-header-temp {
-        background: url('https://rolle.wtf/tweeten-ch-gradient-2.png') repeat-x top #d0cfd0 !important;
+        background: $column-header-background !important;
         height: $column-header-height !important;
         line-height: $column-header-height !important;
+        border-bottom: 1px solid $column-border-right-width !important;
 
         // Add more subtle settings button and fix alignment issues
         .js-action-header-button,
