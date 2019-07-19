@@ -68,7 +68,11 @@ html.dark .js-app .js-column .stream-item .js-inline-reply textarea,
 html .js-app .js-column .stream-item .js-inline-reply div.cf.margin-t--4.full-width,
 html .js-app .column-detail .scroll-conversation, html .js-app .js-column .stream-item .js-inline-reply .compose-text-container, html .js-app .js-column .stream-item .js-inline-reply .js-reply-info-container, html .js-app .js-column .stream-item .js-inline-reply button, html .js-app .js-column .stream-item .js-inline-reply div, html .js-app .js-column .stream-item .js-inline-reply div.cf.margin-t--4.full-width, html.dark .detail-view-inline, html.dark .js-app .js-column .stream-item .js-inline-reply textarea,
 html.dark .js-drawer .compose .compose-text-container textarea.bg-color-twitter-white, html.dark .scroll-conversation,
-html.dark textarea {
+html.dark textarea,
+html.dark .compose,
+html.dark .js-drawer .compose,
+html .js-drawer .compose .compose-text-container,
+html.dark .compose .compose-text-container {
   background: $general-tweet-background !important;
   background-color: $general-tweet-background !important;
 }
