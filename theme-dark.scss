@@ -79,9 +79,27 @@ html.dark .cf,
 html.dark .mdl-accent,
 html.dark .bg-color-twitter-white,
 html.dark .js-quote-tweet-holder.bg-color-twitter-white.is-inverted-dark,
-html.dark .js-drawer .compose .js-quote-tweet-holder .js-quote-detail {
+html.dark .js-drawer .compose .js-quote-tweet-holder .js-quote-detail,
+html.dark .js-modals-container .prf .s-profile,
+html.dark .js-modals-container .prf .js-profile-columns ul li a,
+html.dark .js-profile-columns button,
+html.dark .js-modal .js-modal-panel .mdl-inner .mdl-content .mdl-column-med .search-input-list input,
+html.dark .js-modal .js-modal-panel .mdl-inner .mdl-content,
+html.dark .prf-meta button.btn-on-dark,
+html.dark .prf-meta input[type=button].btn-on-dark,
+html.dark .js-modal .js-modal-panel .mdl-inner .mdl-content .mdl-column-rhs .js-column-header,
+html.dark .js-modal .js-modal-panel .mdl-inner .mdl-content .mdl-column-rhs .js-right-column .js-column .stream-item,
+html.dark .js-modal .js-modal-panel .mdl-inner,
+html.dark .js-modal .js-modal-panel .mdl-inner .mdl-content .mdl-column-med,
+html.dark .column-panel,
+html.dark .js-modal .js-modal-panel .mdl-inner .mdl-buttonbar,
+html.dark .js-modal-panel.mdl {
   background: $general-tweet-background !important;
   background-color: $general-tweet-background !important;
+}
+
+html.dark .js-modal .js-modal-panel .mdl-inner .mdl-content .mdl-column-rhs .js-right-column .js-column .stream-item {
+  margin-bottom: 0 !important;
 }
 
 html.dark .mdl-header-divider {
