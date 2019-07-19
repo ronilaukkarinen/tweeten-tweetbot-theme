@@ -4,7 +4,7 @@ Love [Tweeten](http://tweetenapp.com/), but not how it looks? Say hello to Tweet
 
 ![Screenshot](https://rolle.wtf/tweeten-tweetbot-theme.png)
 
-![Screenshot](https://i.imgur.com/i0rJSaf.png)
+![Screenshot](https://i.imgur.com/6iu4GBD.png)
 
 ## Features
 
