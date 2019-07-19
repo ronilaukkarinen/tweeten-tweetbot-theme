@@ -278,8 +278,28 @@ html .js-app,
         .nbfc a,
         .nbfc,
         .account-summary-text .username,
-        .js-translate-call-to-action {
+        .js-translate-call-to-action,
+        .txt-mute a,
+        .txt-mute,
+        .tweet-stats,
+        .tweet-stats *,
+        .tweet-stats b,
+        .js-value,
+        .js-value *,
+        .js-stats-list,
+        .tweet-detail-actions .tweet-detail-action-item a,
+        .tweet-detail-actions .tweet-detail-action-item,
+        .js-tweet .js-tweet-stats .tweet-stat span,
+        .js-tweet .js-tweet-stats .tweet-stat b {
           color: $color-username !important;
+        }
+
+        .tweet-stats,
+        .tweet-stats *,
+        .js-value,
+        .js-value *,
+        .js-stats-list {
+          font-weight: 400 !important;
         }
 
         .other-replies {
