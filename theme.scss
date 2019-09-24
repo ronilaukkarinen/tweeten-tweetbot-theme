@@ -26,6 +26,11 @@ $font-size-column-title: 14px;
   width: 50px !important;
 }
 
+.js-app-header .column-navigator .js-column-nav-list .column-nav-link .icon,
+.js-app-header .column-navigator .js-column-nav-list .column-nav-link .Icon {
+  padding-left: 4px !important;
+}
+
 .js-app,
 .application {
 
@@ -107,6 +112,7 @@ $font-size-column-title: 14px;
   .js-app-columns,
   .app-columns {
     margin: 0 !important;
+    padding-left: 0 !important;
 
     // Column settings
     .js-column,
@@ -154,7 +160,7 @@ $font-size-column-title: 14px;
           // More space for tweet actions
           .tweet-footer {
             margin-top: 10px !important;
-            margin-bottom: 7px !important;            
+            margin-bottom: 7px !important;
           }
 
           .tweet-actions,
