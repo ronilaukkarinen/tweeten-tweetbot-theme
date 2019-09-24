@@ -9,6 +9,36 @@ $color-buttons-background: #333;
 $column-header-height: 38px;
 $column-border-right-width: 1px;
 $font-size-column-title: 14px;
+$stream-item-border-color: #dfdfdf;
+
+// Scrollbars
+// Scrollbars
+html ::-webkit-scrollbar,
+html .scroll-styled-v::-webkit-scrollbar {
+  width: 3px !important;
+  border-radius: 3px !important;
+}
+
+html ::-webkit-scrollbar-track,
+::-webkit-scrollbar-track,
+html .scroll-styled-v::-webkit-scrollbar-track {
+  background: $stream-item-border-color !important;
+  border-radius: 3px !important;
+  border: 0 !important;
+}
+
+html ::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb,
+html .scroll-styled-v::-webkit-scrollbar-thumb {
+  background: $stream-item-border-color !important;
+  border-radius: 3px !important;
+}
+
+html ::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:hover {
+  background: $stream-item-border-color !important;
+  border-radius: 3px !important;
+}
 
 // Hide useless tooltips
 .js-column-nav-menu-flyover,
