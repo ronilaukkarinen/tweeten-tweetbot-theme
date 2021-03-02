@@ -43,7 +43,7 @@ html.dark .scroll-styled-v::-webkit-scrollbar {
 html ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-track,
 html.dark .scroll-styled-v::-webkit-scrollbar-track {
-  background: $general-tweet-background !important; 
+  background: $general-tweet-background !important;
   border-radius: 3px !important;
   border: 0 !important;
 }
@@ -51,13 +51,13 @@ html.dark .scroll-styled-v::-webkit-scrollbar-track {
 html ::-webkit-scrollbar-thumb,
 ::-webkit-scrollbar-thumb,
 html.dark .scroll-styled-v::-webkit-scrollbar-thumb {
-  background: $stream-item-border-color !important; 
+  background: $stream-item-border-color !important;
   border-radius: 3px !important;
 }
 
 html ::-webkit-scrollbar-thumb:hover,
 ::-webkit-scrollbar-thumb:hover {
-  background: $stream-item-border-color !important; 
+  background: $stream-item-border-color !important;
   border-radius: 3px !important;
 }
 
@@ -69,6 +69,8 @@ html.dark .detail-view-inline {
   }
 }
 
+.js-app .js-column .column-message,
+.js-app .column-content.bg-color-twitter-midnight-dark-gray,
 html .js-app .js-column .stream-item .js-inline-reply .js-reply-info-container,
 html .js-app .js-column .stream-item .js-inline-reply .compose-text-container,
 html .js-app .js-column .stream-item .js-inline-reply div,
@@ -79,8 +81,16 @@ html.dark .scroll-conversation,
 html.dark .js-drawer .compose .compose-text-container textarea.bg-color-twitter-white,
 html.dark .js-app .js-column .stream-item .js-inline-reply textarea,
 html .js-app .js-column .stream-item .js-inline-reply div.cf.margin-t--4.full-width,
-html .js-app .column-detail .scroll-conversation, html .js-app .js-column .stream-item .js-inline-reply .compose-text-container, html .js-app .js-column .stream-item .js-inline-reply .js-reply-info-container, html .js-app .js-column .stream-item .js-inline-reply button, html .js-app .js-column .stream-item .js-inline-reply div, html .js-app .js-column .stream-item .js-inline-reply div.cf.margin-t--4.full-width, html.dark .detail-view-inline, html.dark .js-app .js-column .stream-item .js-inline-reply textarea,
-html.dark .js-drawer .compose .compose-text-container textarea.bg-color-twitter-white, html.dark .scroll-conversation,
+html .js-app .column-detail .scroll-conversation,
+html .js-app .js-column .stream-item .js-inline-reply .compose-text-container,
+html .js-app .js-column .stream-item .js-inline-reply .js-reply-info-container,
+html .js-app .js-column .stream-item .js-inline-reply button,
+html .js-app .js-column .stream-item .js-inline-reply div,
+html .js-app .js-column .stream-item .js-inline-reply div.cf.margin-t--4.full-width,
+html.dark .detail-view-inline,
+html.dark .js-app .js-column .stream-item .js-inline-reply textarea,
+html.dark .js-drawer .compose .compose-text-container textarea.bg-color-twitter-white,
+html.dark .scroll-conversation,
 html.dark textarea,
 html.dark .compose,
 html.dark .js-drawer .compose,
@@ -197,7 +207,7 @@ html .js-app,
     margin-left: 10px !important;
     font-size: 10px !important;
   }
-  
+
   .column-title-back .icon:before {
     font-size: 10px !important;
   }
@@ -282,7 +292,7 @@ html .js-app,
       //    overflow-y: scroll !important;
       //  }
       //}
-      
+
       // More sleek tweet-detail-actions
       .js-tweet-detail .tweet-detail-actions {
         background: $general-tweet-background !important;
@@ -406,7 +416,7 @@ html .js-app,
           // More space for tweet actions
           .tweet-footer {
             margin-top: 10px !important;
-            margin-bottom: 7px !important;            
+            margin-bottom: 7px !important;
           }
 
           .tweet-actions,
