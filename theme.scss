@@ -65,6 +65,11 @@ html ::-webkit-scrollbar-thumb:hover,
   padding-left: 4px !important;
 }
 
+// Fix header settings button background
+.js-app .js-column .column-header .column-header-links {
+  background: transparent !important;
+}
+
 .js-app,
 .application {
 

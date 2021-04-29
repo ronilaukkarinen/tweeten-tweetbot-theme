@@ -130,6 +130,10 @@ html.dark .js-drawer .compose .js-in-reply-to {
   background-color: $general-tweet-background !important;
 }
 
+.js-app .js-column .column-header .column-header-links {
+  background: transparent !important;
+}
+
 html.dark .js-modal .js-modal-panel .mdl-inner .mdl-content .mdl-column-rhs .js-right-column .js-column .stream-item {
   margin-bottom: 0 !important;
 }
